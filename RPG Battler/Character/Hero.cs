@@ -1,9 +1,4 @@
 ﻿using RPG_Battler.Character.Upgrades;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RPG_Battler.Character
 {
@@ -18,7 +13,7 @@ namespace RPG_Battler.Character
         public List<Item> Items { get; set; }
         public List<Skill> Skills { get; set; }
         public List<Spell> Spells { get; set; }
-        public List<Equipment> Equipment { get; set; }
+        public Dictionary<string, Equipment> Equipment { get; set; }
 
         public Hero()
         {       
